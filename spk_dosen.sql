@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2023 at 08:42 AM
+-- Generation Time: Dec 15, 2023 at 11:35 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -124,7 +124,19 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`no_pendaftaran`, `nama`, `asal_smp`, `alamat`, `jenkel`, `agama`, `c1`, `c2`, `c3`, `vektor_s`, `vektor_v`) VALUES
-(1, 'Rizki ', 'SMPN 1 PAPAR', 'Desa Janti, Kecamatan Papar', 'L', 'Islam', 90, 85, 95, 90.744519100373, 1);
+(1, 'Rizki ', 'SMPN 1 PAPAR', 'Desa Janti, Kecamatan Papar', 'L', 'Islam', 90, 85, 95, 90.744519100373, 0.080301581587059),
+(2, 'Khalid', 'SMPN 1 CIREBON', 'KECAMATAN CIREBON', 'L', 'Islam', 90, 85, 95, 90.744519100373, 0.080301581587059),
+(3, 'Yomara', 'SMPN 19 SURABAYA', 'KECAMATAN RUNGKUT', 'L', 'Islam', 90, 86, 96, 91.408194269899, 0.080888880592017),
+(4, 'Bintang ', 'SMPN 1 NTT', 'KECAMATAN NTT', 'L', 'Kristen', 98, 80, 95, 91.953025695967, 0.081371012467808),
+(5, 'Ani Marisa', 'SMPN 2 PAPAR', 'pehkulon kec.papar', 'P', 'Islam', 100, 100, 100, 100, 0.088491935803018),
+(6, 'Belisa Ayu Sari', 'SMPN 2 PAPAR', 'Ds. pesing kec.purwoasri', 'P', 'Islam', 70, 85, 78, 76.870580824124, 0.068024265034291),
+(7, 'Sri Ayu Mardiningsih', 'SMPN 3 PAPAR', 'DS. pOHJAJAR kec.papar', 'P', 'Islam', 90, 90, 95, 92.050531269378, 0.081457297037235),
+(8, 'Joshua Putra Abadi', 'SMPN 1 PAPAR', 'Ds. Papapr kec.papar', 'L', 'Islam', 85, 78, 86, 83.599622032782, 0.073978923860815),
+(9, 'Nadiya Aini Ainun', 'MTS 1 PAPAR', 'Ds. pehkidul kec.papar', 'P', 'Islam', 95, 95, 70, 83.649423669216, 0.074022994292957),
+(10, 'Cantika Adrenelia Putri', 'SMPN 1 KERTOSONO', 'Ds. pohjajar kec.papar', 'P', 'Islam', 75, 95, 80, 81.734513827214, 0.072328453504887),
+(11, 'Ari Setyo Romadhon ', 'SMPN 35 SURABAYA', 'Kecamatan Sukolilo', 'L', 'Islam', 95, 80, 85, 86.883688703715, 0.076885058030985),
+(12, 'Parhan Bisultan', 'SMPN 1 KOTA KEDIRI', 'Ds.Tanon Kec.papar', 'L', 'Islam', 65, 75, 75, 71.506462649581, 0.063277453022876),
+(13, 'Egistia Ninit     ', 'SMPN 1 PAPAR', 'Ds. Janti  Kec.papar', 'P', 'Islam', 85, 96, 88, 88.90139249989, 0.078670563178992);
 
 -- --------------------------------------------------------
 
@@ -272,7 +284,7 @@ ALTER TABLE `data_lppm`
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `no_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `no_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tb_hmp_kriteria`
